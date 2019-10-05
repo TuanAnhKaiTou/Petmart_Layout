@@ -1,0 +1,35 @@
+{
+  "name": "crbnmenu",
+  "version": "1.0.0",
+  "description": "A jQuery plugin for a simple sidebar menu",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhenrich/crbnMenu.git"
+  },
+  "keywords": [
+    "sidebar",
+    "jquery",
+    "plugin",
+    "responsive"
+  ],
+  "author": "Johannes Henrich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhenrich/crbnMenu/issues"
+  },
+  "homepage": "https://github.com/jhenrich/crbnMenu#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1"
+  }
+}

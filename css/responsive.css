@@ -1,0 +1,149 @@
+@media only screen and (max-width: 1540px /*màn hình 19 inch*/) {
+    
+}
+@media only screen and (max-width: 1366px) {
+    
+}
+@media only screen and (max-width: 1280px) {
+#dcma{
+	display: none
+}
+.header .cart {
+    text-align: right;
+}
+#cart{
+    width:100%
+}
+}
+@media only screen and (max-width: 1150px) {
+    
+}
+@media only screen and (max-width: 1024px) {
+.v-menu, .box-slide{
+	width: 100%
+}
+.v-menu h4{
+	text-align: right;
+}
+.v-menu ul.m-list,.v-menu h4 span{
+	display: none
+}
+.v-menu:hover ul{
+	display:inline-block;
+	width: 100%
+}
+.foo-top ul {
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid #ccc
+}
+.foo-top ul h3{
+	font-size: 15px
+}
+.foo-top ul li{
+	display:none
+}
+.foo-top ul:hover li{
+	display:inline-block;
+	width: 100%
+}
+}
+@media only screen and (max-width: 980px) {
+.header .search{
+	width: 74.5%
+}
+.header .search li{
+	width: auto
+}
+#frmsearch{
+	width: 70%
+}
+#group-social{
+	float:right
+}
+#cart{
+	position: absolute;
+	top: 10px;
+	right: 5%
+}
+.size-50{
+	font-size:20px!important
+}
+#txtphone{
+	display: none
+}
+#iconphone{
+	display: inline-block
+}
+}
+@media only screen and (max-width: 900px) {
+    #systemstore{
+	display: none;
+}
+@media only screen and (max-width: 850px) {
+#frmsearch{
+	width: 60%
+}
+.header .search li form input{
+	width: 60%
+}
+}
+@media only screen and (max-width: 800px) {
+    .foo-bottom ul {
+	width: 100%;
+	margin:0;
+	border-bottom: 1px solid #ccc
+}
+.foo-bottom ul h3{
+	font-size: 15px
+}
+.foo-bottom ul li{
+	display:none
+}
+.foo-bottom ul:hover li{
+	display:inline-block;
+	width: 100%
+}
+}
+@media only screen and (max-width: 768px) {
+.v-menu ul.special{
+	display:inline-block;
+	width: 100%
+}
+.header ul li a span {
+	display: none
+}
+}
+@media only screen and (max-width: 700px) {
+
+.header ul li a span {
+	display: none
+}
+#systemstore, .header .cart li span{
+	display: inline-block;
+}
+}
+@media only screen and (max-width: 650px) {
+#frmsearch{
+	display: none
+}
+}
+@media only screen and (max-width: 600px) {
+    
+}
+@media only screen and (max-width: 550px) {
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+}
+@media only screen and (max-width: 450px) {
+    
+}
+@media only screen and (max-width: 400px) {
+    
+}
+@media only screen and (max-width: 350px) {
+    
+}

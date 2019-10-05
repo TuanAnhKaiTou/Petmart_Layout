@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Siêu thị thú cưng</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" lang="vi"/>
+		<meta name="keywords" content=""/>
+		<meta name="desription" content=""/>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+		<link rel="stylesheet" href="api/bootstrap/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="api/bootstrap/css/bootstrap-theme.min.css" >
+		<script src="api/bootstrap/js/bootstrap.min.js" ></script>
+		<link rel="icon" href="img/logo.jpg"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" href="api/owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="api/owlcarousel/owl.theme.default.min.css">
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="api/owlcarousel/owl.carousel.min.js"></script>
+		<script src="api/backtop/quick-up.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+		
+
+		<script>
+		$(document).ready(function(){	
+		  $("#slider").owlCarousel(
+		  {
+			items:1,
+			loop: true,
+			autoplay: true,
+			autoplayTime: 3000,
+			nav: true,
+			navText:['<i class="fa fa-angle-left" ></i>','<i class="fa fa-angle-right" ></i>']
+		  });
+		   $("#product,#product1,#product2").owlCarousel(
+		  {
+			loop: true,
+			autoplay: true,
+			autoplayTime: 3000,
+			nav: true,
+			margin:10,
+			navText:['<i class="fa fa-angle-left" ></i>','<i class="fa fa-angle-right" ></i>'],
+			responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+					},
+					600:{
+						items:3,
+					},
+					1000:{
+						items:5,
+					}
+				}
+		  }
+		  );
+		  $.quickup({
+		  quScrollText: '<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>',
+		  });
+		});
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="header top">
+				<ul>
+					<li id="systemstore"><a href=""><i class="fa fa-home" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-shopping-bag" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-user-md" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-paw" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+			</div>
+			<div class="header bottom">
+				<ul class="logo w25">
+					<li><a href=""><img src="img/logo2.jpg" alt="Logo petmart"/></a></li>
+				</ul>
+				<ul class="search w50">
+					<li id="group-social">
+						<a href="" id="txtphone">Bạn cần trợ giúp? Gọi tổng đài<span class="main-color txt-b">0163208509</span></a>
+						<a href="" class="f-right"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+						<a href="" class="f-right"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="" class="f-right"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+						<a href="" class="f-right"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="" id="iconphone" class="f-right"><i class="fa fa-phone" aria-hidden="true"></i></a>
+					</li>
+					<li id="frmsearch">
+						<form name="frmsearch">
+						<input type="text" name="txtsearch" placeholder="Bạn cần mua sản phẩm gì?"/>
+						<select name="sltsearch">
+							<option value="">1</option>
+							<option value="">2</option>
+							<option value="">3</option>
+							<option value="">4</option>
+							<option value="">5</option>
+							<option value="">6</option>
+							<option value="">7</option>
+							<option value="">8</option>
+						</select>
+						<button name="btnsearch"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</li>
+				</ul>
+				<ul class="cart w25">
+					<li id="dcma"><a href=""><img src="img/dmca.jpg" alt="DMCA"/></a></li>
+					<li id="cart">
+						<a href="" class="right">
+							<span>
+							<i class="fa fa-shopping-cart size-50 main-color " aria-hidden="true"></i></a>
+							Giỏ hàng
+							<a href=""><i class="fa fa-caret-down main-color" aria-hidden="true"></i></a>
+							</span>
+							<span>
+							<b>
+							5.000.000đ
+							</b>
+							</span>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<section class="slider">
+				<div class="v-menu w25">
+						<h4 class="title main-bg white txt-b"><i class="fa fa-bars"></i><span>Danh mục sản phẩm</span></h4>
+						<ul class="m-list">
+							<li><a href=""><span>Dịch vụ tắm & cắt tỉa lông chó mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+							<li><a href=""><span>Khách sạn trông giữ chó mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+							<li><a href=""><span>Thức ăn dinh dưỡng cho chó mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+							<li><a href=""><span>Sữa tắm & mĩ phẩm cho chó mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+							<li><a href=""><span>Nhà cây cào móng cho mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+							<li><a href=""><span>Nhà chuồng & lồng cho chó mèo</span><i class="fa fa-angle-right f-right" ></i></a></li>
+						</ul>
+						<ul class="special main-bg white">
+							<h2>Khách sạn trông giữ chó mèo </h2>
+							<li><a href=""><i class="fa fa-home" ></i><span>Xem phòng</span></a></li>
+						</ul>
+				</div>
+				<div class="box-slide w75">
+					<div class="owl-carousel" id="slider">
+					  <div> <img src="img/banner.jpg" alt="Logo petmart"/> </div>
+					  <div> <img src="img/banner.jpg" alt="Logo petmart"/> </div>
+					  <div> <img src="img/banner.jpg" alt="Logo petmart"/> </div>
+					  <div> <img src="img/banner.jpg" alt="Logo petmart"/> </div>
+					</div>
+				</div>
+			</section>
+			<section class="box-product">
+				<div class="title"><h2>Thức ăn cho chó mèo</h2></div>
+				<div class="product">
+					<div class="owl-carousel" id="product">
+						<div class="item">
+							<a href="" class="item-img">
+							<img src="img/item.jpg" alt="Tên sản phẩm"/>
+							</a>
+							<a href="" class="item-name">
+							Sản phẩm thức ăn chó mèo ngon Nhật
+							</a>
+							<div class="item-price">
+								<span class="line-through">100,000đ</span>
+								<span class="main-color txt-b">50,000đ</span>
+							</div>
+							<a href="" class="btn main-bg white">
+							<i class="fa fa-shopping-bag"></i>Mua hàng
+							</a>
+							<div class="discount bg-red white txt-b">
+								<span><i class="fa fa-arrow-down"></i>25%</span>
+							</div>
+							<a href="" class="view">
+							<span class="main-bg white"><i class="fa fa-info"></i>Chi tiết </span>
+							</a>
+						</div>
+					 
+					</div>
+				</div>	
+			</section>
+			<section class="box-product">
+				<div class="title"><h2>Sữa tắm chó mèo</h2></div>
+				<div class="product">
+					<div class="owl-carousel" id="product1">
+						<div class="item">
+							<a href="" class="item-img">
+							<img src="img/item1.jpg" alt="Tên sản phẩm"/>
+							</a>
+							<a href="" class="item-name">
+							Sữa tắm cho mèo
+							</a>
+							<div class="item-price">
+								<span class="line-through">200,000đ</span>
+								<span class="main-color txt-b">150,000đ</span>
+							</div>
+							<a href="" class="btn main-bg white">
+							<i class="fa fa-shopping-bag"></i>Mua hàng
+							</a>
+						</div>
+					 
+					</div>
+				</div>
+			</section>
+			<section class="box-product">
+				<div class="title"><h2>Nhà cây cào móng cho mèo</h2></div>
+				<div class="product">
+					<div class="owl-carousel" id="product2">
+						<div class="item">
+							<a href="" class="item-img">
+							<img src="img/item2.jpg" alt="Tên sản phẩm"/>
+							</a>
+							<a href="" class="item-name">
+							Nhà cây cào móng cho mèo
+							</a>
+							<div class="item-price">
+								<span class="line-through">200,000đ</span>
+								<span class="main-color txt-b">150,000đ</span>
+							</div>
+							<a href="" class="btn main-bg white">
+							<i class="fa fa-shopping-bag"></i>Mua hàng
+							</a>
+						</div>		 
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="foo-top">
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" ></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" ></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" ></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" ></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="social">
+					<h3>Liên hệ với chúng tôi</h3>
+					<li>
+						<a href="" class="facebook white"><i class="fa fa-facebook" ></i><span></span></a>
+						<a href="" class="youtube white"><i class="fa fa-youtube" ></i><span></span></a>
+						<a href="" class="instagram white"><i class="fa fa-instagram" ></i><span></span></a>
+						<a href="" class="twitter white"><i class="fa fa-twitter" ></i><span></span></a>
+					</li>	
+				</ul>
+			</div>
+			<div class="foo-bottom">
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+				<ul class="">
+					<h3>Tổng đài hỗ trợ</h3>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Hệ thống cửa hàng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Cửa hàng mua sắm</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ chăm sóc thú cưng</span></a></li>
+					<li><a href=""><i class="fa fa-angle-right" aria-hidden="true"></i><span>Dịch vụ gửi thú cưng</span></a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<?
+session_start();
+$host="127.0.0.1";
+$user="root";
+$password="";
+$database="petmart";
+$upload_dir="../upload/";
+$thumb_dir=$upload_dir."thumb/";
+$small_dir=$upload_dir."small/";
+$thumbnail_width=450;
+$thumbnail_height=500;
+$max_file_size_upload=5000000;
+$paper=10;
+require("db.php");
+require("func.php");
+$db=new db($host, $user, $password, $database);
+$db->get('cmd')!=""?$cmd=$db->get('cmd'):$cmd="welcome";
+$db->get('act')!=""?$act=$db->get('act'):$act="manager";
+$db->get('id')!=""?$id=$db->get('id'):$id=0;
+$db->checklogin("./");
+?>
